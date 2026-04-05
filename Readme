@@ -1,0 +1,19 @@
+This project addresses an advanced variant of the irregular strip 
+packing problem arising from automotive manufacturing, where the 
+shapes of certain pieces (adjustable-edge polygon) can be adjusted 
+before cutting. Unlike traditional approaches that only optimize 
+piece placement, this problem simultaneously optimizes both the 
+shapes and placements of pieces to minimize material waste. The 
+project includes 40 benchmark instances and several heuristic 
+algorithms for this problem.
+
+to run the solver, simply execute the run program and provide two 
+integer arguments: FileIndex and AlgIndex. FileIndex, ranging from 
+1 to 40, specifies which instance to solve. AlgIndex, ranging from 
+1 to 5, selects the algorithm as follows. 
+
+AlgIndex = 1, Beam Search with Same Area Strategy 
+AlgIndex = 2, Beam Search with Different Area Strategy 
+AlgIndex = 3, Tabu Search 
+AlgIndex = 4, Variable Neighborhood Search (VNS) 
+AlgIndex = 5, QLearning Enhanced Variable Neighborhood Search
