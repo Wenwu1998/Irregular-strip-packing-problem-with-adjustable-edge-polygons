@@ -15,5 +15,5 @@ integer arguments: FileIndex and AlgIndex. FileIndex, ranging from
 AlgIndex = 1, Beam Search with Same Area Strategy 
 AlgIndex = 2, Beam Search with Different Area Strategy 
 AlgIndex = 3, Tabu Search 
-AlgIndex = 4, Variable Neighborhood Search (VNS) 
+AlgIndex = 4, Variable Neighborhood Search
 AlgIndex = 5, QLearning Enhanced Variable Neighborhood Search
